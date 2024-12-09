@@ -1,0 +1,32 @@
+p{
+   font: 14px Verdana, sans-serif;
+   margin: 50px 40px 80px;
+}
+
+a,
+a:visited{
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: black;
+    display: block;
+    width: max-content;
+    font: 16px Verdana, sans-serif;
+    margin: 10px 20px;
+    padding: 4px 12px;
+    text-decoration: none;
+    
+}
+
+@media screen and (min-width: 800px){
+    p{
+        font-size: 20px;
+        margin: 100px 90px 80px;
+    }
+
+    a,
+    a:visited {
+        border-radius: 7px;
+        font-size: 25px;
+        margin: 20px 90px;
+    }
+}
